@@ -1,0 +1,176 @@
+* {
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+}
+
+html,
+body {
+	margin:0;
+	padding:0;
+    height:100%;   
+}
+
+body {
+    width: 900px !important;
+    margin: 0 auto !important;
+    color:#666;
+}
+
+#root {
+    margin: 0 auto !important;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+    color: black;
+}
+
+#company {
+    font-family: 'yellowtail', serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: black;
+}
+
+#logo-header {
+    width: 300px;
+    margin-top: 10px;
+}
+
+#logo-header span {
+    display: block;
+}
+
+#logo-header img {
+    float: left;
+    margin-right: 10px;
+}
+
+#byline, #motto {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: abel, sans-serif;
+    color: #999;
+}
+
+main {
+    margin: 30px 0;
+}
+
+header, main, footer {
+    width: 900px;
+
+}
+
+#header-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+#share-header{
+    margin-top: 15px;
+}
+
+#share-header a {
+    margin-left: 2px;
+}
+
+#share-header a:nth-last-child(2) {
+    margin-left: 12px;
+}
+
+header div {
+    display: inline-block;
+}
+
+#byline {
+    display: flex;
+    justify-content: space-between;
+}
+
+#recipe {
+    background-image: url("./img/list-bg.png");
+    width:900px;
+    height:305px;
+}
+
+/* footer hr {
+    display: inline-block;
+    width: 300px;
+} */
+
+hr {
+    background-image: url("./img/hr-img.png");
+    height: 10px;
+    border: none;
+}
+
+
+ul {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 24px;
+    display: flex;
+    padding: 35px 35px 20px 75px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style-type: square;
+}
+
+li {
+    width: 50%;
+    line-height: 25px;
+    cursor: pointer;
+    user-select: none;
+    margin-bottom: 6px;
+}
+
+
+footer {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#footer-hr {
+    display: flex;
+    margin-bottom:20px;
+}
+
+footer hr {
+    background-image: none;
+    border-top: 1px solid #CCC;
+    height: 1px;
+    display: inline-block;
+    flex-grow: 1;
+    margin: 0;
+    margin-top: 16px;
+}
+footer img {
+    margin: 0 10px;
+}
+
+footer p {
+    margin: 0;
+    color: #ccc;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+#article-footer {
+    position: relative;
+}
+
+#author img {
+    float: left;
+    margin-right: 15px;
+}
+
+button {
+    position: absolute;
+    right:0;
+    top:0;
+}
